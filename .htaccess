@@ -1,0 +1,12 @@
+# Use PHP5 as default
+# Changed PHP handler from application/x-httpd-php5 to application/x-httpd-phpbeta on Wed Nov 11 18:19:03 MST 2015.
+AddHandler application/x-httpd-phpbeta .php
+# For security reasons, Option all cannot be overridden.
+#
+# For security reasons, Option all cannot be overridden.
+#Options All Indexes
+Options Indexes
+
+Options Indexes
+
+IndexOptions -FancyIndexing
